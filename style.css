@@ -10,7 +10,7 @@ body {
 
 /* Header/logo Title */
 .header {
-  padding: 80px;
+  padding: 50px;
   text-align: center;
   background: #0e5f4f;
   color: white;
@@ -18,7 +18,7 @@ body {
 
 /* Increase the font size of the heading */
 .header h1 {
-  font-size: 40px;
+  font-size: 60px; 
 }
 
 /* Style the top navigation bar */
@@ -79,7 +79,6 @@ body {
     border-radius: 50%;
 }
 
-/* Fake image, just for this example */
 .text1 {
   background-color: #6e3b3b;
   color: white;
@@ -87,10 +86,29 @@ body {
   padding: 20px;
 }
 
-/* .text2 {
-  width: 100%;
-  padding: 10px 500px 0px 0px;
-} */
+#scrollbar {
+  overflow: scroll;
+  scrollbar-width: thin;
+  max-height: 35vh;
+}
+
+#scrollbar a:link {
+  color:white;
+}
+
+#scrollbar a:hover {
+  font-size:150%;
+}
+
+#scrollbar a:visited {
+  color:#09f319;
+}
+
+.text2 {
+  width: 560px;
+  padding: 5px;
+  margin-bottom: 1em;
+}
 
 /* Footer */
 .footer {
